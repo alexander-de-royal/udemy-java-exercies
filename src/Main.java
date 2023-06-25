@@ -1,17 +1,42 @@
-// Press ⇧ twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static void main(String[] args) {
-        // Press ⌥⏎ with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press ⌃R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press ⌃D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing ⌘F8.
-            System.out.println("i = " + i);
-        }
-    }
+//    public static void main(String[] args) {
+//        int countOfMatches = 0;
+//        int sumOfMatches = 0;
+//
+//        for(int i = 0; i <= 1000; i++){
+//            if( (i % 3 == 0) && (i % 5 == 0)){
+//                countOfMatches++;
+//                sumOfMatches += i;
+//                System.out.println("Found a match = " + i);
+//            }
+//            if(countOfMatches == 5){
+//                break;
+//            }
+//        }
+//        System.out.println("Sum = " + sumOfMatches);
+//    }
+//    public static void main(String[] args) {
+//        int count = 0;
+//        for(int i = 10; i <= 50; i++){
+//            if(isPrime(i)){
+//                System.out.println("number " + i + " is a prime number");
+//                count++;
+//                if(count == 3){
+//                    System.out.println("Found 3 = Exiting for loop");
+//                    break;
+//
+//                }
+//            }
+//        }
+//    }
+//    public static void main(String[] args) {
+//
+//        System.out.printf("Hello and welcome!");
+//
+//        for (int i = 1; i <= 5; i++) {
+//
+//            System.out.println("i = " + i);
+//        }
+//    }
 }
